@@ -7,3 +7,12 @@ generator client {
   provider      = "prisma-client-js"
   binaryTargets = "native"
 }
+
+model Company {
+  id     String   @id @default(auto()) @map("_id") @db.ObjectId
+  name   String
+  role   String
+  period String
+  skills String[]
+  logo   String?
+}
