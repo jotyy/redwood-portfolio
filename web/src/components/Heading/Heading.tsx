@@ -25,7 +25,7 @@ const Heading = ({
       {...props}
     >
       <UnderlinedText color={underlineColor}>{children}</UnderlinedText>
-      {emoji ? ` ` : emoji}
+      {emoji ? emoji : ` `}
     </Box>
   )
 }
