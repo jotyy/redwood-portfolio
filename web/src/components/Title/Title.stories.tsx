@@ -1,4 +1,4 @@
-import Header from './Heading'
+import Header from './Title'
 
 export const normal = () => {
   return <Header underlineColor={'#444'}>Header</Header>

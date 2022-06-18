@@ -16,3 +16,14 @@ model Company {
   skills String[]
   logo   String?
 }
+
+model Institude {
+  id           String   @id @default(auto()) @map("_id") @db.ObjectId
+  title        String
+  short_title  String
+  role         String
+  skills       String[]
+  period       String
+  startingYear String
+  logo         String?
+}

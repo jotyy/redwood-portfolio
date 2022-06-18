@@ -7,7 +7,7 @@ interface Props extends BoxProps {
   emoji?: string
 }
 
-const Heading = ({
+const Title = ({
   children,
   underlineColor,
   emoji,
@@ -30,4 +30,4 @@ const Heading = ({
   )
 }
 
-export default Heading
+export default Title

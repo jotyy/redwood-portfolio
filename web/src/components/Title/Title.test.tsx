@@ -1,14 +1,14 @@
 import { render } from '@redwoodjs/testing/web'
 
-import Heading from './Heading'
+import Title from './Title'
 
 //   Improve this test with help from the Redwood Testing Doc:
 //    https://redwoodjs.com/docs/testing#testing-components
 
-describe('Heading', () => {
+describe('Title', () => {
   it('renders successfully', () => {
     expect(() => {
-      render(<Heading underlineColor="#444" />)
+      render(<Title underlineColor="#444" />)
     }).not.toThrow()
   })
 })
